@@ -16,4 +16,5 @@
     <string name="bottom_navigation_menu_Evens">Evens</string>
     <string name="bottom_navigation_menu_files">Files</string>
     <string name="bottom_navigation_menu_News">News</string>
+    <string name="tv_str_content_home">Homes</string>
 </resources>

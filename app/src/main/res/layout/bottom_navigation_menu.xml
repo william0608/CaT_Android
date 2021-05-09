@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_black_24"
+        android:title="@string/bottom_navigation_menu_Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_team"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_people_black_24"
+        android:title="@string/bottom_navigation_menu_Team"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_files"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_folder_shared_black_24"
+        android:title="@string/bottom_navigation_menu_files"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_evens"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_event_black_24"
+        android:title="@string/bottom_navigation_menu_Evens"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_info_black_24"
+        android:title="@string/bottom_navigation_menu_News"
+        app:showAsAction="ifRoom" />
+</Menu>

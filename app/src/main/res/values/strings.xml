@@ -11,4 +11,9 @@
     <string name="login_failed">"Login failed"</string>
     <string name="AppNameLogin">CaT - Login</string>
     <string name="app_version">version 1.0.0</string>
+    <string name="bottom_navigation_menu_Home">Home</string>
+    <string name="bottom_navigation_menu_Team">Team</string>
+    <string name="bottom_navigation_menu_Evens">Evens</string>
+    <string name="bottom_navigation_menu_files">Files</string>
+    <string name="bottom_navigation_menu_News">News</string>
 </resources>

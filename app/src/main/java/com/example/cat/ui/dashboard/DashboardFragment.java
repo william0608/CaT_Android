@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,6 +19,26 @@ import com.example.cat.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
 
+    public DashboardFragment() {
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
+        String[] menuItems = {"Do something", "Do something else ", "Do yet another thing"};
+
+        ListView listView = (ListView) view.findViewById(R.id.mainMenu);
+
+        ArrayAdapter<String> listViewAdapter = new ArrayAdapter<String>(
+                getActivity(),
+                android.R.layout.simple_list_item_1,
+                menuItems
+        );
+        listView.setAdapter(listViewAdapter);
+        return view;
+    }
+    /*
     private DashboardViewModel dashboardViewModel;
     private FragmentDashboardBinding binding;
 
@@ -43,4 +65,5 @@ public class DashboardFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+    */
 }
